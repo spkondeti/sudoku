@@ -26,7 +26,7 @@ This project requires the following technologies to work properly:
  * PC12,LATCH 
  * (optional) Audio Output: PB14
  ![LED MATRIX WIRING](https://github.com/spkondeti/sudoku/blob/master/images/keypad.PNG)
- ![KEYPAD AND LCD DISPLAY WIRING](https://github.com/spkondeti/sudoku/images/wiring.png)
+ ![KEYPAD AND LCD DISPLAY WIRING](https://github.com/spkondeti/sudoku/blob/master/images/wiring.PNG)
 
 ### Gameplay
 * To start giving input, Press '*' on the keypad (Input won't be taken, otherwise)
