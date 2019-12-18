@@ -25,7 +25,7 @@ This project requires the following technologies to work properly:
  * PC11,CLK 
  * PC12,LATCH 
  ![LED MATRIX WIRING](https://github.com/spkondeti/sudoku/blob/master/images/keypad.PNG)
- ![KEYPAD AND LCD DISPLAY WIRING](https://github.com/spkondeti/sudoku/tree/master/images/wiring.png)
+ ![KEYPAD AND LCD DISPLAY WIRING](https://github.com/spkondeti/sudoku/blob/master/images/wiring.PNG)
 
 ### Running the application
 Run the following command in the terminal:
