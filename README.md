@@ -24,22 +24,20 @@ This project requires the following technologies to work properly:
  * PC10,A4 
  * PC11,CLK 
  * PC12,LATCH 
+ * (optional) Audio Output: PB14
  ![LED MATRIX WIRING](https://github.com/spkondeti/sudoku/blob/master/images/keypad.PNG)
- ![KEYPAD AND LCD DISPLAY WIRING](https://github.com/spkondeti/sudoku/blob/master/images/wiring.PNG)
+ ![KEYPAD AND LCD DISPLAY WIRING](https://github.com/spkondeti/sudoku/images/wiring.png)
 
-### Running the application
-Run the following command in the terminal:
-```sh
-python manage.py runserver
-```
-
-Verify the deployment by navigating to: (your domain name in deployment mode)
-```sh
-127.0.0.1:8000
-```
+### Gameplay
+* To start giving input, Press '*' on the keypad (Input won't be taken, otherwise)
+* To enter a number, mode is 'C'. To delete a number, mode is 'D'
+* Mode, Num and Row, Col: Both of these should always be seperated by a B ('|') on the keypad
+* Press '#' anytime during the game to reset the input 
+### Instructions
+* Power the STM32 and LED Matrix individually
+* To change the colors, Change the RGB values in the update_board function
+* If you want to change the number of blocks to remove depending on the level user selected, change the blocks_to_remove variable in game.c file
 
 ### Development
 Want to contribute? Great!
-Send commit request or email me directly at skondeti@purdue.edu or suryapkondeti@gmail.com
-
-**Free Software, Hell Yeah!**
+Send commit requests or email me directly at skondeti@purdue.edu or suryapkondeti@gmail.com
